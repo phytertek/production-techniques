@@ -2,6 +2,10 @@
   "name": "experts-server",
   "version": "0.1.0",
   "description": "",
+  "homepage": "https://github.com/phytertek/production-techniques",
+  "bugs": {
+    "url": "https://github.com/phytertek/production-techniques/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +15,10 @@
     "javascript"
   ],
   "author": "Phytertek",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
