@@ -1,1 +1,5 @@
-# Production build techniques with javascript
+#Production build techniques with javascript
+
+>Course on creating a pruduction Javascript product
+
+## License
