@@ -6,7 +6,7 @@ import logger from './util/logger'
 app.listen(8080, function() {
   const host = this.address().address
   const port = this.address().port
-  logger.log(`Shard listening on http://${host}:${port}`)
+  logger.log(`Experts Server listening on http://${host}:${port}`)
 })
 
 process.on('uncaughtException', err => logger.error('Uncaught exception:', err))
