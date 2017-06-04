@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint src/",
-    "test": "eslint src/ && babel-node test/"
+    "test": "eslint src/ && babel-node test/",
+    "start": "node index.js"
   },
   "keywords": [
     "REST",
