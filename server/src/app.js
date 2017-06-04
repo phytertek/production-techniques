@@ -8,6 +8,7 @@ const app = express()
 // add body paring
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+
 // test method
 app.get('/', (req, res) => {
   res.send('Hello World!')
