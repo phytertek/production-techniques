@@ -6,6 +6,7 @@
     "func-names": "off",
     "space-before-function-paren": ["error", "never"],
     "max-len": ["error", 120, 4],
-    "semi": 0
+    "semi": 0,
+    "comma-dangle":"off"
   }
 }
