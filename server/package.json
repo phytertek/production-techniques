@@ -8,10 +8,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "db:run": "docker run -d -p 28015:28015 -p 8090:8080 -v $PWD/db:/data --name expertsdb rethinkdb",
+    "start": "node index.js",
+    "db:create": "node src/util/db/create",
+    "db:start": "docker start expertsdb",
+    "db:stop": "docker stop expertsdb",
+    "db:rm": "docker rm expertsdb",
     "eslint": "eslint src/",
-    "test": "eslint src/ && babel-node test/",
-    "start": "node index.js"
+    "test": "eslint src/ && babel-node test/"
   },
   "keywords": [
     "REST",

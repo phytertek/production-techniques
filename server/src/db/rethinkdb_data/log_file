@@ -1,0 +1,30 @@
+2017-06-07T05:03:03.848264186 5.497654s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2017-06-07T05:03:03.862531825 5.511930s notice: Initializing directory /data/rethinkdb_data
+2017-06-07T05:03:03.863132429 5.512522s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2017-06-07T05:03:03.863264052 5.512652s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2017-06-07T05:03:03.873081685 5.522478s notice: Running on Linux 4.8.0-52-generic x86_64
+2017-06-07T05:03:03.873242129 5.522630s notice: Loading data from directory /data/rethinkdb_data
+2017-06-07T05:03:03.934970805 5.584360s info: Automatically using cache size of 14120 MB
+2017-06-07T05:03:04.059718298 5.709107s notice: Listening for intracluster connections on port 29015
+2017-06-07T05:03:04.062806537 5.712195s notice: Listening for client driver connections on port 28015
+2017-06-07T05:03:04.064404837 5.713794s notice: Listening for administrative HTTP connections on port 8080
+2017-06-07T05:03:04.196385074 5.845774s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%16
+2017-06-07T05:03:04.316555585 5.965945s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%16
+2017-06-07T05:03:04.396600600 6.045989s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%16
+2017-06-07T05:03:04.396636610 6.046024s notice: Server ready, "d535f63787df_azw" f9e671d1-ec4c-4934-8578-579cc1f910c8
+2017-06-07T05:07:15.170242443 256.819630s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2017-06-07T05:07:15.170311937 256.819699s notice: Shutting down client connections...
+2017-06-07T05:07:15.170344999 256.819732s notice: All client connections closed.
+2017-06-07T05:07:15.170346901 256.819734s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-06-07T05:07:15.170551369 256.819939s notice: Storage engine shut down.
+2017-06-07T23:39:39.062518257 5.518532s notice: Running rethinkdb 2.3.5~0jessie (GCC 4.9.2)...
+2017-06-07T23:39:39.075104515 5.531119s notice: Running on Linux 4.8.0-52-generic x86_64
+2017-06-07T23:39:39.075300487 5.531309s notice: Loading data from directory /data/rethinkdb_data
+2017-06-07T23:39:39.128883809 5.584897s info: Automatically using cache size of 12371 MB
+2017-06-07T23:39:39.207121996 5.663130s notice: Listening for intracluster connections on port 29015
+2017-06-07T23:39:39.212344360 5.668353s notice: Listening for client driver connections on port 28015
+2017-06-07T23:39:39.213557097 5.669566s notice: Listening for administrative HTTP connections on port 8080
+2017-06-07T23:39:39.305325582 5.761334s notice: Listening on cluster addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%6
+2017-06-07T23:39:39.385529824 5.841538s notice: Listening on driver addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%6
+2017-06-07T23:39:44.504997593 10.961005s notice: Listening on http addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%6
+2017-06-07T23:39:44.505064508 10.961072s notice: Server ready, "d535f63787df_azw" f9e671d1-ec4c-4934-8578-579cc1f910c8
